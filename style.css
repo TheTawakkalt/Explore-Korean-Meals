@@ -62,7 +62,10 @@ body {
   .panel h3 {
     font-size: 18px;
   }
-
+  .panel.active h3 {
+    font-size: 18px; 
+  }
+  
   .panel:nth-of-type(6) {
     display: none;
   }
